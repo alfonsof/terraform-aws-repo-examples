@@ -13,9 +13,13 @@ This code was written for Terraform 0.10.x.
 
 ## Using the code
 
-Terraform modules are not meant to be deployed directly. Instead, you should be using them from other templates. See
-terraform-examples-aws
-[terraform-examples-aws/code/10-multi-repo-example/live/stage/services/webserver-cluster](terraform-examples-aws/code/10-multi-repo-example/live/stage/services-webserver-cluster) and
+Terraform modules are not meant to be deployed directly. Instead, you should be using them from other templates. Furthermore, this module is in a repo in order to be used by Terraform files from other repos.
 
-[stage/services/webserver-cluster](../../../stage/services-webserver-cluster) and
-[prod/services/webserver-cluster](../../../prod/services-webserver-cluster) for examples.
+See: 
+
+[https://github.com/alfonsof/terraform-examples-aws/tree/master/code/10-multi-repo-example](https://github.com/alfonsof/terraform-examples-aws/tree/master/code/10-multi-repo-example) 
+
+where this module is used by:
+
+* Terraform Web Server Cluster example (staging environment)
+* Terraform Web Server Cluster example (production environment)
