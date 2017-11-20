@@ -1,4 +1,4 @@
-# Terraform Web Server Cluster module in another repo example
+# Terraform Web Server Cluster module in a repo example
 
 This folder contains a Web Server Cluster module in a repo example of a Terraform file (https://www.terraform.io/).
 This Terraform file define a cluster of web servers module in Amazon Web Services (AWS) using EC2 and Auto Scaling, and a load balancer using ELB.
