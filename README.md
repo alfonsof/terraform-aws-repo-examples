@@ -1,4 +1,4 @@
-# Terraform Web Server Cluster module in a repo example
+# Terraform Web Server Cluster module in a Repo example
 
 Terraform is used to create, manage, and update infrastructure resources such as physical machines, VMs, network switches, containers, and more. Almost any infrastructure type can be represented as a resource in Terraform.
 
