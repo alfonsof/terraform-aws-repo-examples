@@ -8,6 +8,18 @@ This Terraform file define a cluster of web servers module on AWS (Amazon Web Se
 
 The cluster of web servers returns "Hello, World" for the URL `/`. The load balancer listens on port 80.
 
+Terraform modules are not meant to be deployed directly. Instead, you should be using them from other templates.
+
+This is the file layout in this repo:
+
+```bash
+modules
+    └── services/
+        └── webserver-cluster/
+            ├── main.tf
+            └── (etc)
+```
+
 ## Requirements
 
 * You must have [Terraform](https://www.terraform.io/) installed on your computer.
